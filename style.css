@@ -1,0 +1,89 @@
+body {
+    background-color: #E1D89F; 
+    color: #0e273c;
+    font-size: 20px ;
+    text-align: justify;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+#main-title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.third-title {
+    text-align: center;
+    margin-right: 200px;
+}
+
+.main {
+    padding: 20px;
+    margin: 40px 10px;
+    background-color: #706f6f;
+    border-radius: 20px;
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1px;
+    margin-left: 200px;
+}
+
+.main-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    margin-left: 570px;
+    margin-top: 10px;
+}
+
+.academic{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+    background-color: #706f6f;
+    border-radius: 20px;
+    list-style: none;
+}
+
+#about-me {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.lista > li {
+    list-style: none;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill .skill-description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skill .progress {
+    height: 10px;
+    background-color: #706f6f;
+}
+
+.skill .progress.percentage {
+    background-color: #F6CA83;
+}
